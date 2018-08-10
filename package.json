@@ -13,6 +13,9 @@
         "url": "https://github.com/hegde5/VS-Code-PyDoc-Extension"
     },
     "categories": [
+        "Programming Languages",
+        "Formatters",
+        "Snippets",
         "Other"
     ],
     "activationEvents": [

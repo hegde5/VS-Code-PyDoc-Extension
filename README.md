@@ -25,6 +25,10 @@ After you have installed the extension:
 
 ## Release Notes
 
+### 0.3.0
+
+Add categories to extension
+
 ### 0.2.0
 
 Add icon to extension
