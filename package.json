@@ -3,7 +3,7 @@
     "displayName": "PyDoc",
     "description": "Generates the docstring for functions and classes",
     "version": "0.0.1",
-    "publisher": "pikachuforever",
+    "publisher": "reddevil",
     "engines": {
         "vscode": "^1.25.0"
     },
