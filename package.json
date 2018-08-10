@@ -7,7 +7,7 @@
     "engines": {
         "vscode": "^1.25.0"
     },
-    "respository": {
+    "repository": {
         "type": "git",
         "url": "https://github.com/hegde5/VS-Code-PyDoc-Extension"
     },
