@@ -11,10 +11,6 @@ Currently Supports docstrings for:
 * Functions - with/without arguments and keyword arguments
 * Class
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
 ## Extension Settings
 
 After you have installed the extension:
@@ -28,6 +24,10 @@ After you have installed the extension:
 ![Demo](assets/Example.gif)
 
 ## Release Notes
+
+### 0.0.2
+
+Add icon to extension
 
 ### 0.0.1
 
