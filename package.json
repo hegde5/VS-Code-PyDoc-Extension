@@ -1,5 +1,5 @@
 {
-    "name": "py_doc",
+    "name": "pythondoc",
     "displayName": "PyDoc",
     "description": "Generates the docstring for functions and classes",
     "version": "0.0.1",
