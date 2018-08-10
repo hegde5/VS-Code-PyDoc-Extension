@@ -2,6 +2,7 @@
     "name": "pythondoc",
     "displayName": "PyDoc",
     "description": "Generates the docstring for functions and classes",
+    "icon": "assets/code-comments.jpg",
     "version": "0.0.1",
     "publisher": "reddevil",
     "engines": {

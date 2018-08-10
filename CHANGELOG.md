@@ -1,7 +1,13 @@
 # Change Log
+
 All notable changes to the "PyDoc" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.2] - 10/08/2018
 
-## [Unreleased]
+### Added
+
+- Icon for the extension
+
+## [0.0.1] - 10/08/2018
+
 - Initial release

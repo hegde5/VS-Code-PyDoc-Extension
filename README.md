@@ -1,12 +1,13 @@
 # PyDoc README
 
-This is a simple VSCode extension helps in adding Docstrings to your python code. Currently docstrings for `Functions` and `Classes` are supported.
+This is a simple VSCode extension which helps in adding Docstrings to your python code. Currently docstrings for `Functions` and `Classes` are supported.
 
 ## Features
 
-Add elaborated Docstrings to your python code! 
+Add elaborated Docstrings to your python code!
 
 Currently Supports docstrings for:
+
 * Functions - with/without arguments and keyword arguments
 * Class
 
