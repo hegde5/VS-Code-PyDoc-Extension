@@ -25,11 +25,11 @@ After you have installed the extension:
 
 ## Release Notes
 
-### 0.0.2
+### 0.2.0
 
 Add icon to extension
 
-### 0.0.1
+### 0.1.0
 
 Initial release of PyDoc extension for VS Code
 
