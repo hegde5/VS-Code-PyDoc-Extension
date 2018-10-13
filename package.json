@@ -3,7 +3,7 @@
     "displayName": "PyDoc",
     "description": "Generates the docstring for functions and classes",
     "icon": "assets/code-comments.jpg",
-    "version": "0.3.0",
+    "version": "0.3.1"  ,
     "publisher": "reddevil",
     "engines": {
         "vscode": "^1.25.0"

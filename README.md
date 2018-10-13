@@ -25,6 +25,10 @@ After you have installed the extension:
 
 ## Release Notes
 
+### 0.3.1
+
+ Fix indentation issue with closing doc string
+
 ### 0.3.0
 
 Add categories to extension
