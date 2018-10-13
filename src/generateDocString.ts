@@ -43,7 +43,7 @@ export class Docstring {
         const startQuotes = '\n\t""" Description\n';
         const endQuotes = '\t"""';
         const exceptions = '\t:raises:\n\n';
-        const rType = '\t:rtype:\n ';
+        const rType = '\t:rtype:\n';
         let linePosition = this.editor.selection.active.line;
 
         if (params && isArray(params)) {

@@ -2,6 +2,10 @@
 
 All notable changes to the "PyDoc" extension will be documented in this file.
 
+## [0.3.1] - 13/10/2018
+
+- Fix indentation issue with closing doc string
+
 ## [0.3.0] - 10/08/2018
 
 - Add categories to the extension
