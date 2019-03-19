@@ -25,9 +25,13 @@ After you have installed the extension:
 
 ## Release Notes
 
+### 0.3.2
+
+Upgrade `node.extend` to get latest security patch
+
 ### 0.3.1
 
- Fix indentation issue with closing doc string
+Fix indentation issue with closing doc string
 
 ### 0.3.0
 

@@ -2,6 +2,10 @@
 
 All notable changes to the "PyDoc" extension will be documented in this file.
 
+## [0.3.2] - 19/03/2019
+
+- Upgrade `node.extend` to get latest security patch
+
 ## [0.3.1] - 13/10/2018
 
 - Fix indentation issue with closing doc string
