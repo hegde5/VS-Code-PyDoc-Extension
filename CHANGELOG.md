@@ -2,6 +2,10 @@
 
 All notable changes to the "PyDoc" extension will be documented in this file.
 
+## [0.3.3] - 11/05/2019
+
+- Upgrade `tar` to get latest security patch for issue - [CVE-2018-20834](https://nvd.nist.gov/vuln/detail/CVE-2018-20834)
+
 ## [0.3.2] - 19/03/2019
 
 - Upgrade `node.extend` to get latest security patch
