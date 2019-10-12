@@ -2,6 +2,10 @@
 
 All notable changes to the "PyDoc" extension will be documented in this file.
 
+## [0.4.0] - 12/10/2019
+
+Add new shortcut to generate docstring. Selecting the function/class and pressing `ctrl+alt+b` generates the doctstring.
+
 ## [0.3.3] - 11/05/2019
 
 - Upgrade `tar` to get latest security patch for issue - [CVE-2018-20834](https://nvd.nist.gov/vuln/detail/CVE-2018-20834)

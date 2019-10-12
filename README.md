@@ -25,7 +25,11 @@ After you have installed the extension:
 
 ## Release Notes
 
-### [0.3.3] - 11/05/2019
+### 0.4.0
+
+Add new shortcut to generate docstring. Selecting the function/class and pressing `ctrl+alt+b` generates the doctstring.
+
+### 0.3.3
 
 Upgrade `tar` to get latest security patch for issue - [CVE-2018-20834](https://nvd.nist.gov/vuln/detail/CVE-2018-20834)
 
