@@ -44,15 +44,16 @@ export class Docstring {
         const endQuotes = '\t"""';
         const exceptions = '\t:raises:\n\n';
         const rType = '\t:rtype:\n';
+        const rDescription = '\t:returns:\n';
         let linePosition = this.editor.selection.active.line;
 
         if (params && isArray(params)) {
             const paramStr = this.generateParamDocstring(params);
-            const finalStr = startQuotes + paramStr + exceptions + rType + endQuotes;
+            const finalStr = startQuotes + paramStr + exceptions + rType + rDescription + endQuotes;
             this.editor.insertSnippet(snippet.appendText(finalStr), new vscode.Position(linePosition + 1, 4))
         }
         else {
-            const finalStr = startQuotes + exceptions + rType + endQuotes;
+            const finalStr = startQuotes + exceptions + rType + rDescription + endQuotes;
             this.editor.insertSnippet(snippet.appendText(finalStr), new vscode.Position(linePosition + 1, 4))
         }
     }
