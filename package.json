@@ -34,14 +34,14 @@
                 "command": "extension.docstring",
                 "key": "ctrl+alt+b"
             }
-		],
-		"menus": {
-			"editor/context": [
-				{
-					"command": "extension.docstring"
-				}
-			]
-		}
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "command": "extension.docstring"
+                }
+            ]
+        }
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
@@ -51,10 +51,10 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
-        "tslint": "^5.8.0",
+        "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
+        "tslint": "^5.8.0",
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.36"
     }
 }
