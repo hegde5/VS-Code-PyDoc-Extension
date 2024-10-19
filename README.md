@@ -28,32 +28,5 @@ After you have installed the extension:
 
 ## Release Notes
 
-### 0.4.0
+All notable changes to the "PyDoc" extension are documented in the [changelog](./CHANGELOG.md)
 
-Add new shortcut to generate docstring. Selecting the function/class and pressing `ctrl+alt+b` generates the doctstring.
-
-### 0.3.3
-
-Upgrade `tar` to get latest security patch for issue - [CVE-2018-20834](https://nvd.nist.gov/vuln/detail/CVE-2018-20834)
-
-### 0.3.2
-
-Upgrade `node.extend` to get latest security patch
-
-### 0.3.1
-
-Fix indentation issue with closing doc string
-
-### 0.3.0
-
-Add categories to extension
-
-### 0.2.0
-
-Add icon to extension
-
-### 0.1.0
-
-Initial release of PyDoc extension for VS Code
-
-**Enjoy!**
