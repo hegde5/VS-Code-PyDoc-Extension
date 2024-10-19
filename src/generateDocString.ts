@@ -1,7 +1,5 @@
 import * as vscode from 'vscode';
 import { Parser } from './parser';
-import { isArray } from 'util';
-
 
 export class Docstring {
 
@@ -40,21 +38,33 @@ export class Docstring {
         let parser = new Parser(header);
         let params = parser.functionParser();
         let snippet = new vscode.SnippetString();
-        const startQuotes = '\n\t""" Description\n';
+        const startQuotes = '\t""" Description\n';
         const endQuotes = '\t"""';
         const exceptions = '\t:raises:\n\n';
         const rType = '\t:rtype:\n';
         const rDescription = '\t:returns:\n';
+        let docStr = '';
         let linePosition = this.editor.selection.active.line;
+        const lineCount = this.editor.document.lineCount;
 
-        if (params && isArray(params)) {
+        if (params && Array.isArray(params)) {
             const paramStr = this.generateParamDocstring(params);
-            const finalStr = startQuotes + paramStr + exceptions + rType + rDescription + endQuotes;
-            this.editor.insertSnippet(snippet.appendText(finalStr), new vscode.Position(linePosition + 1, 4))
+            docStr = startQuotes + paramStr + exceptions + rType + rDescription + endQuotes;
         }
         else {
-            const finalStr = startQuotes + exceptions + rType + rDescription + endQuotes;
-            this.editor.insertSnippet(snippet.appendText(finalStr), new vscode.Position(linePosition + 1, 4))
+            docStr = startQuotes + exceptions + rType + rDescription + endQuotes;
+        }
+
+        // Check if the snippet needs to be inserted beyond the current last line
+        if (linePosition + 1 >= lineCount) {
+            const lastLine = this.editor.document.lineAt(lineCount - 1);
+            this.editor.edit(editBuilder => {
+                snippet.appendText(docStr)
+                editBuilder.insert(lastLine.range.end, `\n${docStr}`);
+            })  
+        }
+        else {
+            this.editor.insertSnippet(snippet.appendText(docStr), new vscode.Position(linePosition + 1, 4));
         }
     }
 
@@ -67,7 +77,7 @@ export class Docstring {
 
     private generateParamDocstring(params: Array<string>) {
         let paramStr = '';
-        params.forEach((val, index) => {
+        params.forEach((val, _) => {
             paramStr += '\t:type ' + val + ':\n';
             paramStr += '\t:param ' + val + ':';
             paramStr += '\n\n';
@@ -75,6 +85,4 @@ export class Docstring {
         });
         return paramStr;
     }
-
-
 }
