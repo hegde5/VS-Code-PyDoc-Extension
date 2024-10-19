@@ -1,6 +1,7 @@
 # PyDoc
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/reddevil.pythondoc.svg)](https://marketplace.visualstudio.com/items?itemName=reddevil.pythondoc) [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/reddevil.pythondoc.svg)](https://marketplace.visualstudio.com/items?itemName=reddevil.pythondoc)
+[![Marketplace Version](https://vsmarketplacebadges.dev/version-short/reddevil.pythondoc.svg)](https://marketplace.visualstudio.com/items?itemName=reddevil.pythondoc) [![Downloads](https://vsmarketplacebadges.dev/downloads-short/reddevil.pythondoc.svg
+)](https://marketplace.visualstudio.com/items?itemName=reddevil.pythondoc) [![Installs](https://vsmarketplacebadges.dev/installs-short/reddevil.pythondoc.svg)](https://marketplace.visualstudio.com/items?itemName=reddevil.pythondoc)
 
 This is a simple VSCode extension which helps in adding Docstrings to your python code. Currently docstrings for `Functions` and `Classes` are supported.
 

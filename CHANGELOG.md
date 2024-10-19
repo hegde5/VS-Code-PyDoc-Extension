@@ -2,6 +2,10 @@
 
 All notable changes to the "PyDoc" extension will be documented in this file.
 
+## [0.5.0] - 19/10/2024
+
+Chore: Upgrade several npm packages
+
 ## [0.4.0] - 12/10/2019
 
 Add new shortcut to generate docstring. Selecting the function/class and pressing `ctrl+alt+b` generates the doctstring.
